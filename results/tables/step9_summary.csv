@@ -1,0 +1,11 @@
+Metric,Value
+Assets,"SPY, EURUSD, TLT"
+Observations,5640
+Rolling volatility windows,21 / 63 / 252 days
+EWMA lambda,0.94
+GARCH model,"GARCH(1,1)"
+GARCH refit frequency,21 observations
+Rolling correlation window,126 days
+Rolling covariance window,126 days
+Portfolio weighting,Equal weight
+Regime methodology,33rd / 67th percentiles
