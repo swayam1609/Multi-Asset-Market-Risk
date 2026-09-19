@@ -114,3 +114,32 @@ Multi-Asset-Market-Risk/
 │   └── risk/
 │
 └── test/
+
+## Visual Results
+
+### Portfolio Return Distribution and VaR
+
+The portfolio return distribution illustrates the observed daily return behavior of the 50% SPY, 20% EURUSD and 30% TLT portfolio, with VaR thresholds used to quantify tail risk.
+
+![Portfolio Return Distribution](results/figures/portfolio_return_distribution.png)
+
+
+### VaR Method Comparison
+
+Comparison of Historical, Parametric and Monte Carlo Value-at-Risk estimates at the 95% and 99% confidence levels.
+
+![VaR Comparison](results/figures/var_comparison.png)
+
+
+### Rolling VaR and Realized Losses
+
+The rolling VaR analysis evaluates out-of-sample risk from 2023 onward and compares estimated VaR with realized portfolio losses.
+
+![Actual Loss vs VaR](results/figures/actual_loss_vs_var.png)
+
+
+### GARCH vs GJR-GARCH Volatility
+
+Comparison of conditional volatility estimates from the symmetric GARCH(1,1) model and the asymmetric GJR-GARCH model.
+
+![GARCH vs GJR-GARCH Volatility](results/figures/garch_vs_gjr_volatility.png)
